@@ -3,14 +3,14 @@ class Person {
     String university_;
     String address_;
 
-    Person(String name, String univercity, String adress){
+    Person(String name, String university, String adress){
         name_ = name;
-        university_ = univercity;
+        university_ = university;
         address_ = adress;
     }
 
     void PrintInfo(){
-        System.out.printf("Name: %s \nUnivercity: %s\nAdress: %s", name_, university_, address_);
+        System.out.printf("Name: %s \nUniversity: %s\nAdress: %s", name_, university_, address_);
     }
 
     int Length(String str){
